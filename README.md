@@ -20,7 +20,7 @@ To train the model from the beginning, run:
 ```
 python main.py
 ```
-To load a pretrained model, run:
+To resume training from a saved model, run:
 ```
 python main.py --resume_training=True
 ```
