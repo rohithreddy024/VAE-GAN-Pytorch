@@ -179,4 +179,6 @@ if __name__ == "__main__":
     if opt.to_train:
         training()
     else:
+        checkpoint = T.load(save_path)
+        G.load_state_dict(checkpoint['G_model'])
         generate_samples("data/testing_img.jpg")
