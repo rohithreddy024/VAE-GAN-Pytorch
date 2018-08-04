@@ -2,7 +2,7 @@
 Generation of 128x128 bird images using VAE-GAN with additional feature matching loss.
 
 ## Model Description
-Resnet18 based Encoder. Generator and Discriminator architectures are similar to that of DCGAN. Discriminator and Generator are trained with Heuristic non saturating loss. Encoder is trained with KL-Divergence loss to ensure latent 'z' generated is close to standard normal distribution. In addition, the combination of Encoder and Generator is trained with reconstruction loss and Discriminator's feature matching loss. 
+Resnet18 based Encoder. Generator and Discriminator architectures are similar to that of DCGAN. Discriminator is trained with traditional loss function and Generator is trained with Heuristic non saturating loss. Encoder is trained with KL-Divergence loss to ensure latent 'z' generated is close to standard normal distribution. In addition, the combination of Encoder and Generator is trained with reconstruction loss and Discriminator's feature matching loss. 
 
 ## Prerequisites
 * Python 2.7
