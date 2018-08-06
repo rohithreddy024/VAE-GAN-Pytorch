@@ -31,7 +31,7 @@ To generate images from saved model, run:
 ```
 python main.py --to_train=False
 ```
-### Sample when weight of feature matching loss = 0.01 at epoch=300:
+### Samples generated from noise with weight of feature matching loss = 0.01:
 ![](imgs/img_1.jpg)
 ![](imgs/img_2.jpg)
 ![](imgs/img_3.jpg)
