@@ -32,4 +32,6 @@ To generate images from saved model, run:
 python main.py --to_train=False
 ```
 ### Sample when weight of feature matching loss = 0.01 at epoch=300:
-<img src="https://github.com/rohithreddy024/VAE-GAN-Pytorch/blob/master/imgs/sample_img.jpg" width="480">
+![](imgs/img_1.jpg)
+![](imgs/img_2.jpg)
+![](imgs/img_3.jpg)
